@@ -1,0 +1,82 @@
+/*------------------------ 
+USER FORMS FRONT-END STYLE
+------------------------*/
+.uf-notice{padding: 15px 20px;margin-bottom: 15px;}
+.uf-notice.uf-notice-info{color: #000;background-color: rgba(75,181,67,0.1);border-left: 4px solid #000;}
+
+.userforms-retrive-password *{transition: 0.2s all linear;}
+.userforms-retrive-password .user-login{margin-bottom: 25px;padding: 0}
+.userforms-retrive-password label{display: block;font-size: 15px;color: #000;margin-bottom: 10px;}
+.userforms-retrive-password #pass1, .userforms-retrive-password #pass2{width: 100%;min-height: 40px;border: 1px solid rgba(0,0,0,.1);padding: 5px 15px;}
+.userforms-retrive-password #wp-submit{background-color: #000;color: #fff;border: 1px solid rgba(0,0,0,0);border-radius:4px;cursor: pointer;padding: 10px 15px;text-decoration: none;font-size: 15px;}
+.userforms-retrive-password #wp-submit:hover{opacity: .8}
+.userforms-retrive-password .bottom-links{margin: 15px 0;text-align: center;list-style: none;font-size: 14px;}
+.userforms-retrive-password .bottom-links li{display: inline-block;padding: 0 15px;line-height: 15px;margin: 0;}
+.userforms-retrive-password .bottom-links li:first-child{border-right: 1px solid #888;}
+.userforms-retrive-password .bottom-links li a{color: #000;font-size: 13px;text-decoration: none;}
+.userforms-retrive-password .bottom-links li a:hover{color: #555;}
+.userforms-retrive-password .status .error, .userforms-retrive-password .status .success{padding: 15px 20px;margin-bottom: 15px;}
+.userforms-retrive-password .status .error{color: #ED4337;background-color: rgba(237,67,55,0.1);}
+.userforms-retrive-password .status .success{color: #4BB543;background-color: rgba(75,181,67,0.1);}
+
+.userforms-forgot-password *{transition: 0.2s all linear;}
+.userforms-forgot-password .user-login{margin-bottom: 25px;padding: 0}
+.userforms-forgot-password label{display: block;font-size: 15px;color: #000;margin-bottom: 10px;}
+.userforms-forgot-password #user_login{width: 100%;min-height: 40px;border: 1px solid rgba(0,0,0,.1);padding: 5px 15px;}
+.userforms-forgot-password #wp-submit{background-color: #000;color: #fff;border: 1px solid rgba(0,0,0,0);border-radius:4px;cursor: pointer;padding: 10px 15px;text-decoration: none;font-size: 15px;}
+.userforms-forgot-password #wp-submit:hover{opacity: .8}
+.userforms-forgot-password .bottom-links{margin: 15px 0;text-align: center;list-style: none;font-size: 14px;}
+.userforms-forgot-password .bottom-links li{display: inline-block;padding: 0 15px;line-height: 15px;margin: 0;}
+.userforms-forgot-password .bottom-links li:first-child{border-right: 1px solid #888;}
+.userforms-forgot-password .bottom-links li a{color: #000;font-size: 13px;text-decoration: none;}
+.userforms-forgot-password .bottom-links li a:hover{color: #555;}
+.userforms-forgot-password .status .error, .userforms-forgot-password .status .success{padding: 15px 20px;margin-bottom: 15px;}
+.userforms-forgot-password .status .error{color: #ED4337;background-color: rgba(237,67,55,0.1);}
+.userforms-forgot-password .status .success{color: #4BB543;background-color: rgba(75,181,67,0.1);}
+
+.userforms-login *{transition: 0.2s all linear;}
+.userforms-login .login-username, .userforms-login .login-password, .userforms-login .login-remember{margin-bottom: 25px;padding: 0}
+.userforms-login label{display: block;font-size: 15px;color: #000;margin-bottom: 10px;}
+.userforms-login #user_login, .userforms-login #user_pass{width: 100%;min-height: 40px;border: 1px solid rgba(0,0,0,.1);padding: 5px 15px;}
+.userforms-login #wp-submit{background-color: #000;color: #fff;border: 1px solid rgba(0,0,0,0);border-radius:4px;cursor: pointer;padding: 10px 15px;text-decoration: none;font-size: 15px;}
+.userforms-login #wp-submit:hover{opacity: .8}
+.userforms-login .bottom-links{margin: 15px 0;text-align: center;list-style: none;font-size: 14px;}
+.userforms-login .bottom-links li{display: inline-block;padding: 0 15px;line-height: 15px;margin: 0;}
+.userforms-login .bottom-links li:first-child{border-right: 1px solid #888;}
+.userforms-login .bottom-links li a{color: #000;font-size: 13px;text-decoration: none;}
+.userforms-login .bottom-links li a:hover{color: #555;}
+.userforms-login .status .error, .userforms-login .status .success{padding: 15px 20px;margin-bottom: 15px;}
+.userforms-login .status .error{color: #ED4337;background-color: rgba(237,67,55,0.1);}
+.userforms-login .status .success{color: #4BB543;background-color: rgba(75,181,67,0.1);}
+
+.userforms-register *{transition: 0.2s all linear;}
+.userforms-register label{display: block;}
+.uf-field-text input,
+.uf-field-number input,
+.uf-field-password input,
+.uf-field-select select,
+.uf-field-textarea textarea{width: 100%;min-height: 40px;border: 1px solid rgba(0,0,0,.1);padding: 5px 15px;}
+.uf-field-checkbox .uf-checkboxs .uf-checkbox,
+.uf-field-radio .uf-radios .uf-radio{width: 50%;display: inline-block;vertical-align: top;color: #000;}
+.userforms-register .uf-field label{font-size: 15px;color: #000;margin-bottom: 10px;}
+.userforms-register .uf-field{margin-bottom: 25px;font-size: 15px;}
+.userforms-register.column-2 .uf-field{display: inline-block;vertical-align: top;width: calc( 50% - 15px );}
+.userforms-register.column-2 .uf-field:nth-child(2n){margin-left: 30px;}
+.userforms-register.column-2 .uf-field.uf-field-button{width: 100%;margin: 0}
+
+.userforms-register #wp-submit{background-color:#000;color:#fff;border:1px solid rgba(0,0,0,0);border-radius:4px;cursor:pointer;padding: 10px 15px;text-decoration: none;font-size: 15px;}
+.userforms-register #wp-submit:hover{opacity: .8}
+.userforms-register .bottom-links{margin: 15px 0;text-align: center;list-style: none;font-size: 14px;}
+.userforms-register .bottom-links li{display: inline-block;padding: 0 15px;line-height: 15px;margin: 0;}
+.userforms-register .bottom-links li:first-child{border-right: 1px solid #888;}
+.userforms-register .bottom-links li a{color: #000;font-size: 13px;text-decoration: none;}
+.userforms-register .bottom-links li a:hover{color: #555;}
+.userforms-register .status .error, .userforms-register .status .success{padding: 15px 20px;margin-bottom: 15px;}
+.userforms-register .status .error{color: #ED4337;background-color: rgba(237,67,55,0.1);}
+.userforms-register .status .success{color: #4BB543;background-color: rgba(75,181,67,0.1);}
+.userforms-register input::placeholder{opacity: 0.0;color: #555;}
+
+@media screen and (max-width: 39.9375em) {
+	.uf-field-checkbox .uf-checkboxs .uf-checkbox,
+	.uf-field-radio .uf-radios .uf-radio{width: 100%;display:}
+}
