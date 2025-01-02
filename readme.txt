@@ -59,7 +59,6 @@ Shortcodes:
 = Register Form Shortcode [USERFORMS_REGISTER] Parameters =
 
 * "column" Display Column Layout (Accepts '1' or '2'). Default **1**
-* "role" User’s role. Default **subscriber**
 * "redirect" URL to redirect to. Default is to redirect back to the **request URI**
 * "form_id" ID attribute value for the form. Default **registerform**
 * "label_username" Label for the username field. Default **Username**
