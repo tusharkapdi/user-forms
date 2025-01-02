@@ -170,7 +170,6 @@ class User_Forms_Shortcodes{
 		}
 		
 		$default = array(
-			'role'              => ( !empty($options['role']) ? $options['role'] : 'subscriber' ),
 			'column'            => ( !empty($options['column']) ? $options['column'] : 1 ),
 			'redirect'          => $redirect,
 			'form_id'           => 'registerform',
@@ -526,13 +525,11 @@ class User_Forms_Shortcodes{
 			( $custom_fields ? $custom_fields : '' ) .
 			sprintf(
 				'<div class="uf-field uf-field-button register-submit">
-					<input type="submit" name="wp-submit" id="%1$s" class="button button-primary" value="%2$s" style="background:%5$s" />
-					<input type="hidden" name="role" value="%3$s" />
-					<input type="hidden" name="redirect_to" value="%4$s" />
+					<input type="submit" name="wp-submit" id="%1$s" class="button button-primary" value="%2$s" style="background:%4$s" />
+					<input type="hidden" name="redirect_to" value="%3$s" />
 				</div>',
 				esc_attr( $args['id_submit'] ),
 				esc_attr( $args['register_button'] ),
-				esc_attr( $args['role'] ),
 				esc_url( $args['redirect'] ),
 				esc_html( $args['color'] )
 			) .
@@ -603,7 +600,7 @@ class User_Forms_Shortcodes{
 			$nonce = isset( $_REQUEST['_wpnonce'] ) ? sanitize_text_field(wp_unslash($_REQUEST['_wpnonce'])) : '';
 
 			if ( ! wp_verify_nonce( $nonce, 'USERFORMS_reset_password_nonce' ) ) {
-				die( esc_html__('Your password reset link has expired. Please request a new link below', 'user-forms') ); 
+				die( esc_html__('Nonce is invalid', 'user-forms') ); 
 			}
 		}
 
@@ -825,23 +822,24 @@ class User_Forms_Shortcodes{
 		$reqarr = explode("&", $reqarr[1]);
 		$redirect_to = esc_url(urldecode($reqarr[0]));
 
+		$options = get_option( 'user_forms_opt' );
 		//echo '<pre>';print_r($register_data_array);exit;
 		
 		$userdata = array(
-		    'user_email' => $register_data_array['email'],
-		    'user_login' => $register_data_array['email'],
-		    'user_pass'  => $register_data_array['pwd'],
-		    'role'       => $register_data_array['role']
+		    'user_email' => sanitize_email($register_data_array['email']),
+		    'user_login' => sanitize_user($register_data_array['email']),
+		    'user_pass'  => trim($register_data_array['pwd']),
+		    'role'       => sanitize_text_field($options['role'])
 		);
 
 		if(!empty($register_data_array['log'])){
-			$userdata['user_login'] = $register_data_array['log'];
+			$userdata['user_login'] = sanitize_user($register_data_array['log']);
 		}
 		if(!empty($register_data_array['first_name'])){
-			$userdata['first_name'] = $register_data_array['first_name'];
+			$userdata['first_name'] = sanitize_text_field($register_data_array['first_name']);
 		}
 		if(!empty($register_data_array['last_name'])){
-			$userdata['last_name'] = $register_data_array['last_name'];
+			$userdata['last_name'] = sanitize_text_field($register_data_array['last_name']);
 		}
 
 		//print_r($userdata);exit;
@@ -923,8 +921,8 @@ class User_Forms_Shortcodes{
 		
 		
 		$creds = array(
-			'user_login'    => sanitize_text_field( $login_data_array['log'] ),
-			'user_password' => sanitize_text_field( $login_data_array['pwd'] ),
+			'user_login'    => sanitize_user( $login_data_array['log'] ),
+			'user_password' => trim($login_data_array['pwd']),
 			'remember'      => isset( $login_data_array['rememberme']) ? true : false
 		);
 		
@@ -975,7 +973,7 @@ class User_Forms_Shortcodes{
 		//echo '<pre>';print_r($forgot_data_array);
 		
 		$userdata = array(
-		    'user_login' => $forgot_data_array['user_login'],
+		    'user_login' => sanitize_user($forgot_data_array['user_login']),
 		);
 
 		$retrieve_pwd = retrieve_password( $userdata['user_login'] );
@@ -1022,7 +1020,7 @@ class User_Forms_Shortcodes{
 		$redirect_to = esc_url(urldecode($reqarr[0]));
 
 		$userdata = array(
-		    'login' => $forgot_data_array['rp_login'],
+		    'login' => sanitize_user($forgot_data_array['rp_login']),
 		    'pass1' => trim($forgot_data_array['pass1']),
 		    'pass2' => trim($forgot_data_array['pass2']),
 		);
