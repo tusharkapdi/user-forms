@@ -1,0 +1,475 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: User Forms\n"
+"POT-Creation-Date: 2025-01-02 16:05+0530\n"
+"PO-Revision-Date: 2025-01-02 16:07+0530\n"
+"Last-Translator: Tushar Kapdi <tusharkapdi@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: user-forms.php\n"
+"X-Poedit-SearchPath-1: lib/class-user-forms.php\n"
+"X-Poedit-SearchPath-2: lib/includes/classes/class-user-forms-menu.php\n"
+"X-Poedit-SearchPath-3: lib/includes/classes/class-user-forms-run.php\n"
+"X-Poedit-SearchPath-4: lib/includes/classes/shortcodes/class-user-forms-"
+"shortcodes.php\n"
+
+#: lib/class-user-forms.php:43
+msgid "You are not allowed to clone this class."
+msgstr ""
+
+#: lib/class-user-forms.php:54
+msgid "You are not allowed to unserialize this class."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:63
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:187
+msgid "First Name"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:63
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:188
+msgid "Last Name"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:63
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:176
+msgid "Username"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:63
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:186
+msgid "Email Address"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:63
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:99
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:177
+msgid "Password"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:63
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:189
+msgid "Confirm Password"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:119
+#: lib/includes/classes/class-user-forms-menu.php:235
+msgid "User Forms"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:122
+#: lib/includes/classes/class-user-forms-menu.php:138
+msgid "Dashboard"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:123
+msgid "Settings"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:307
+msgid "General Settings"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:314
+msgid "Login Page"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:322
+msgid "Register Page"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:330
+msgid "Forgot Password Page"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:338
+msgid "Button Color"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:346
+msgid "Login Settings"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:353
+msgid "Hide Remember"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:361
+#: lib/includes/classes/class-user-forms-menu.php:392
+#: lib/includes/classes/class-user-forms-menu.php:423
+#: lib/includes/classes/class-user-forms-menu.php:502
+msgid "Hide Bottom Links"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:369
+msgid "Login Button Label"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:377
+#: lib/includes/classes/class-user-forms-menu.php:408
+#: lib/includes/classes/class-user-forms-menu.php:439
+#: lib/includes/classes/class-user-forms-menu.php:518
+msgid "Redirect URL"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:385
+msgid "Forgot Password Settings"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:400
+msgid "Forgot Password Button Label"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:416
+msgid "Retrieve Password Settings"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:431
+msgid "Retrieve Password Button Label"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:447
+msgid "Register Settings"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:454
+msgid "Layout"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:462
+msgid "New User Role"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:470
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:98
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:185
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:640
+msgid "Username or Email Address"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:478
+msgid "Show First Name"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:486
+msgid "Show Last Name"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:494
+msgid "Show Confirm Password"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:510
+msgid "Register Button Label"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:526
+msgid "Registration Form Management"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:533
+msgid "Register Fields"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:655
+#: lib/includes/classes/class-user-forms-menu.php:670
+#: lib/includes/classes/class-user-forms-menu.php:685
+msgid "Select page"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:660
+msgid "Select Login Page. Use shortcode [USERFORMS_LOGIN]"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:675
+msgid "Select Register Page. Use shortcode [USERFORMS_REGISTER]"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:690
+msgid "Select Forgot Password Page. Use shortcode [USERFORMS_FORGOT_PASSWORD]"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:691
+msgid ""
+"Reset Password Link will be only generate when you set Forgot Password Page. "
+"Otherwise, Reset Password Link will be default WordPress link"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:700
+msgid "Choose Button Color"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:710
+msgid "Checked to hide Remember field."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:720
+#: lib/includes/classes/class-user-forms-menu.php:869
+msgid "Checked to hide register form Bottom Links."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:729
+msgid "Enter Login Button Label. Default is `Log In`"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:738
+msgid "Enter redirect URL. Redirect to this URL after Login sucessful"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:748
+msgid "Checked to hide Forgot Password form Bottom Links."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:757
+msgid "Enter Forgot Password Button Label. Default is `Get New Password`"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:766
+msgid ""
+"Enter redirect URL. Redirect to this URL after forgot password sucessful"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:776
+msgid "Checked to hide Retrieve Password form Bottom Links."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:785
+msgid "Enter Retrieve Password Button Label. Default is `Save Password`"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:794
+msgid ""
+"Enter redirect URL. Redirect to this URL after retrieve password sucessful"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:803
+msgid "Select Column Layout. Default is `1 Column`"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:819
+msgid "Select New User Role. Default is `Subscriber`"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:829
+msgid ""
+"Checked to show Username and Email both fields and hide combained field "
+"Username or Email Address."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:839
+msgid "Checked to show First Name field."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:849
+msgid "Checked to show Last Name field."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:859
+msgid "Checked to show Confirm Password field."
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:878
+msgid "Enter Register Button Label. Default is `Register`"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:887
+msgid ""
+"Enter Redirect URL. Redirect to this URL after Registration is successful"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:900
+msgid "Order"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:901
+msgid "Type"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:902
+msgid "Label"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:903
+msgid "Option"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:904
+msgid "Required"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:905
+#: lib/includes/classes/class-user-forms-menu.php:988
+msgid "Delete"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:930
+msgid "Drag & Drop"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:1000
+msgid "Option textarea field value must be in new line"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:1005
+msgid "Add New Field"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:1013
+msgid "Display Order"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:1014
+msgid "Delete Field"
+msgstr ""
+
+#: lib/includes/classes/class-user-forms-menu.php:1042
+msgid "User Forms : Registration Custom Fields"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:100
+msgid "Remember Me"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:101
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:626
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:644
+msgid "Log In"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:112
+msgid "Lost password?"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:113
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:627
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:645
+msgid "Create an account"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:145
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:224
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:798
+msgid "Logout"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:178
+msgid "Register"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:190
+msgid "Forgot your password?"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:191
+msgid "Alredy register? Login"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:572
+#, php-format
+msgid "Someone has requested a password reset for the following account: %s"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:574
+#, php-format
+msgid "Site Name: %s"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:576
+#, php-format
+msgid "Site URL: %s"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:578
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:579
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:580
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:603
+msgid "Nonce is invalid"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:624
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:661
+msgid "Save Password"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:642
+msgid "Get New Password"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:674
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:736
+msgid "Your password reset link has expired. Please request a new link below"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:678
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:738
+msgid ""
+"Your password reset link appears to be invalid. Please request a new link "
+"below"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:700
+msgid "New password"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:707
+msgid "Confirm new password"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:742
+msgid ""
+"Please enter your username or email address. You will receive an email "
+"message with instructions on how to reset your password."
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:876
+msgid "Register successful, redirecting..."
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:940
+msgid "Login successful, redirecting..."
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:986
+msgid ""
+"We have received a request to reset the password for your account, Please "
+"check your email for the confirmation link and follow the instructions."
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:988
+msgid ""
+"We have received a request to reset the password for your account, Please "
+"check your email for the confirmation link and follow the instructions. "
+"redirecting..."
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:1030
+msgid "The password cannot be a space or all spaces"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:1035
+msgid "<strong>Error:</strong> The passwords do not match"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:1046
+msgid "Your password has been reset successful"
+msgstr ""
+
+#: lib/includes/classes/shortcodes/class-user-forms-shortcodes.php:1048
+msgid "Your password has been reset successful, redirecting..."
+msgstr ""
